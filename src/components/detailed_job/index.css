@@ -1,3 +1,14 @@
+.spinner-con {
+  display: flex;
+  background-color: #272727;
+  flex-direction: column;
+  justify-content: center;
+  border-radius: 20px;
+  min-height: 100vh;
+  padding: 4vw;
+  align-items: center;
+}
+
 .main-detailed-job-con {
   background-color: #121212;
   min-height: 90vh;

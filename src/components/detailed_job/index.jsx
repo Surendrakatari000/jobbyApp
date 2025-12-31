@@ -4,7 +4,7 @@ import Cookies from "js-cookie";
 import { TiStarFullOutline } from "react-icons/ti";
 import { FaMapMarkerAlt } from "react-icons/fa";
 import { MdWork } from "react-icons/md";
-import { Link } from "react-router-dom";
+import { BallTriangle } from "react-loader-spinner";
 import "./index.css";
 
 import Navbar from "../Navbar/index.jsx";
@@ -193,10 +193,18 @@ const JobDetailed = () => {
           </div>
         </div>
       ) : (
-        ""
+        <div className="main-detailed-job-con">
+          <div className="spinner-con">
+            <BallTriangle  />
+          </div>
+        </div>
       )}
     </div>
   );
 };
 
 export default JobDetailed;
+
+
+
+
